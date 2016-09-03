@@ -1,6 +1,6 @@
 production:
   adapter: redis
-  url: <%= ENV['REDIS_URL'] %>
+  url: redis://redistogo:a49c22eebce69799195de9ce3e1ed140@viperfish.redistogo.com:11736/
 
 development:
   adapter: redis
